@@ -1,0 +1,84 @@
+[2023-08-12T02:19:34.931Z] Status: 400, Error: Error: Invalid phone number format
+[2023-08-12T02:22:45.666Z] Status: 400, Error: Error: Invalid phone number format
+[2023-08-12T02:22:47.394Z] Status: 400, Error: Error: Invalid phone number format
+[2023-08-12T02:23:09.483Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format
+[2023-08-12T02:24:49.893Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:24:51.616Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:24:52.682Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:25:07.424Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:25:10.572Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:25:11.625Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:26:26.267Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits,
+Validation error: Email is already in use
+[2023-08-12T02:26:37.321Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Email is already in use
+[2023-08-12T02:36:19.859Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:36:19.860Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:36:22.420Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:36:22.420Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:36:30.938Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:36:30.939Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:36:39.139Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:36:39.140Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:36:40.412Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:36:40.413Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:37:12.948Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:37:12.952Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:37:14.063Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:37:14.063Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:37:44.334Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:37:44.335Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:39:17.811Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T02:39:18.887Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T02:39:28.051Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T02:40:18.425Z] Status: 400, Error: Error: Invalid Password
+[2023-08-12T02:40:20.624Z] Status: 400, Error: Error: Invalid Password
+[2023-08-12T02:40:41.997Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T02:40:43.308Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T02:40:49.493Z] Status: 400, Error: Error: Invalid Password
+[2023-08-12T02:42:30.208Z] Status: 400, Error: Error: Invalid Password
+[2023-08-12T02:42:31.581Z] Status: 400, Error: Error: Invalid Password
+[2023-08-12T02:42:36.817Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:42:36.818Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:42:55.129Z] Status: 400, Error: Error: User not found
+[2023-08-12T03:04:56.231Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-12T03:05:07.292Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-12T11:41:09.311Z] Status: 500, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-12T11:41:10.739Z] Status: 500, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-12T11:41:29.868Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-12T11:54:22.640Z] Status: 500, Error: Error: TypeError: Customer.findByIdAndDelete is not a function
+[2023-08-13T03:32:12.367Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Email is already in use
+[2023-08-13T03:32:19.708Z] Status: 500, Error: Error: SequelizeUniqueConstraintError: Validation error
+[2023-08-13T03:39:18.813Z] Status: 500, Error: Error: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-08-13T03:39:19.904Z] Status: 500, Error: Error: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-08-13T03:39:22.906Z] Status: 500, Error: Error: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-08-13T03:39:39.713Z] Status: 500, Error: Error: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-08-13T03:39:40.854Z] Status: 500, Error: Error: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-08-13T03:39:50.568Z] Status: 500, Error: Error: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-08-13T03:40:18.583Z] Status: 500, Error: Error: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-08-13T04:43:25.037Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Email is already in use
+[2023-08-13T04:43:29.756Z] Status: 500, Error: Error: SequelizeUniqueConstraintError: Validation error
+[2023-08-13T04:43:35.054Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-13T04:43:40.220Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-13T04:44:24.464Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Email is already in use
+[2023-08-13T04:45:27.095Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Email is already in use
+[2023-08-13T04:46:26.570Z] Status: 400, Error: Error: Customer not found
+[2023-08-13T04:46:27.750Z] Status: 400, Error: Error: Customer not found
+[2023-08-13T04:54:28.865Z] Status: 404, Error: Error: Customer not found
+[2023-08-13T04:54:31.075Z] Status: 404, Error: Error: Customer not found
+[2023-08-13T04:55:08.117Z] Status: 404, Error: Error: Customer not found
+[2023-08-13T04:55:16.331Z] Status: 404, Error: Error: Customer not found
+[2023-08-13T04:55:42.838Z] Status: 404, Error: Error: Customer not found
+[2023-08-13T04:56:04.395Z] Status: 404, Error: Error: Customer not found
+[2023-08-13T04:56:37.113Z] Status: 404, Error: Error: Customer not found
+[2023-08-13T04:59:31.941Z] Status: 404, Error: Error: Customer not found
+[2023-08-13T04:59:36.998Z] Status: 404, Error: Error: Customer not found
+[2023-08-13T10:33:36.777Z] Status: 500, Error: Error: TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+[2023-08-13T10:44:39.904Z] Status: 500, Error: Error: TypeError: Cannot destructure property 'id' of 'req.query' as it is undefined.
+[2023-08-13T10:47:01.369Z] Status: 500, Error: Error: TypeError: Cannot destructure property 'id' of 'req.query' as it is undefined.
+[2023-08-13T10:47:11.098Z] Status: 500, Error: Error: TypeError: Cannot destructure property 'id' of 'req.query' as it is undefined.

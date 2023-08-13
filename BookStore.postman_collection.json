@@ -1,0 +1,657 @@
+{
+	"info": {
+		"_postman_id": "d0141d3c-a3e5-4114-993f-9f450ff396aa",
+		"name": "BookStore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23622958",
+		"_collection_link": "https://speeding-moon-14055.postman.co/workspace/Team-Workspace~f72014a2-a1c8-4d7a-8028-b67890430b23/collection/23622958-d0141d3c-a3e5-4114-993f-9f450ff396aa?action=share&creator=23622958&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"aungaung\",\n    \"email\" :\"aungaung0@gmail.com\",\n    \"phone\":\"0996148818\",\n    \"password\":\"aungaung123\"\n}"
+						},
+						"url": {
+							"raw": "{{API_URL}}/register/api/users/createuser",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"register",
+								"api",
+								"users",
+								"createuser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\" :\"aungaung@gmail.com\",\n    \"password\":\"aungaung123\"\n}"
+						},
+						"url": {
+							"raw": "{{API_URL}}/login/api/users/loginUser",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"login",
+								"api",
+								"users",
+								"loginUser"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"Si Thu Kyaw Tint\",\n    \"email\" :\"sithu0071@gmail.com\",\n    \"password\":\"guguadmin\",\n    \"phone\":\"08352619221\"\n}"
+						},
+						"url": {
+							"raw": "{{API_URL}}/customer/register/api/customers/createcustomer",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"customer",
+								"register",
+								"api",
+								"customers",
+								"createcustomer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjozLCJlbWFpbCI6InNpdGh1MDA3MUBnbWFpbC5jb20iLCJpYXQiOjE2OTE5MDE4MjQsImV4cCI6MTcyMzQ1OTQyNH0.2Yy_Wy8Lm5ilqrQvfGi0MUJGPf_MBZxwaqHREjy_zZo",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"Si Thu Kyaw Tint\",\n    \"email\" :\"sithu11@gmail.com\",\n    \"password\":\"guguadmin\",\n    \"phone\" : \"09351342521\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/customer/edit/api/customers/editcustomer?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"customer",
+								"edit",
+								"api",
+								"customers",
+								"editcustomer"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Destory",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjozLCJlbWFpbCI6InNpdGh1MDA3MUBnbWFpbC5jb20iLCJpYXQiOjE2OTE5MDE4MjQsImV4cCI6MTcyMzQ1OTQyNH0.2Yy_Wy8Lm5ilqrQvfGi0MUJGPf_MBZxwaqHREjy_zZo",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{API_URL}}/customer/destory/api/customers/destorycustomer?id=1",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"customer",
+								"destory",
+								"api",
+								"customers",
+								"destorycustomer"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\" :\"sithu0071@gmail.com\",\n    \"password\":\"guguadmin\"\n}"
+						},
+						"url": {
+							"raw": "{{API_URL}}/customer/login/api/customers/logincustomer",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"customer",
+								"login",
+								"api",
+								"customers",
+								"logincustomer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjozLCJlbWFpbCI6InNpdGh1MDA3MUBnbWFpbC5jb20iLCJpYXQiOjE2OTE5MDE5OTgsImV4cCI6MTcyMzQ1OTU5OH0.mb8sgOOVDd30geC0rQmOspbcgZTHxnKWxMvOKyZ3mXw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{API_URL}}/customer/getlist/api/customers/getcustomer",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"customer",
+								"getlist",
+								"api",
+								"customers",
+								"getcustomer"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Book",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksImVtYWlsIjoiYXVuZ2F1bmcwMUBnbWFpbC5jb20iLCJpYXQiOjE2OTE5MDIyMTksImV4cCI6MTcyMzQ1OTgxOX0.RJknPAV1xLP_o8rJvL6I16YnzWsTVmKq5kIj1Ov6vMw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\" : \"The Great Gatsby\",\n    \"author\" :\"F. Scott Fitzgerald\",\n    \"description\":\"A classic novel about the American Dream\",\n    \"price\":\"1000\",\n    \"publication_year\":\"2020-03-03\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URL}}/book/store/api/books/createbook",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"book",
+								"store",
+								"api",
+								"books",
+								"createbook"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksImVtYWlsIjoiYXVuZ2F1bmcwMUBnbWFpbC5jb20iLCJpYXQiOjE2OTE5MDIyMTksImV4cCI6MTcyMzQ1OTgxOX0.RJknPAV1xLP_o8rJvL6I16YnzWsTVmKq5kIj1Ov6vMw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{API_URL}}/book/getlist/api/books/getbookList",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"book",
+								"getlist",
+								"api",
+								"books",
+								"getbookList"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SaleBook",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjozLCJlbWFpbCI6InNpdGh1MDA3MUBnbWFpbC5jb20iLCJpYXQiOjE2OTE5MDI0MjUsImV4cCI6MTcyMzQ2MDAyNX0.RVYm8o49qC3cG0nGkvJL3KQ8gNV_epUVL_lh6ZHHLt0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"sale_date\" : \"2023-03-04\",\n    \"amount\" : \"30000\",\n    \"book_id\" : 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URL}}/salebook/store/api/salebooks/createbookasle",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"salebook",
+								"store",
+								"api",
+								"salebooks",
+								"createbookasle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjozLCJlbWFpbCI6InNpdGh1MDA3MUBnbWFpbC5jb20iLCJpYXQiOjE2OTE5MDI0MjUsImV4cCI6MTcyMzQ2MDAyNX0.RVYm8o49qC3cG0nGkvJL3KQ8gNV_epUVL_lh6ZHHLt0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{API_URL}}/salebook/getlist/api/salebooks/getbooksaleList",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"salebook",
+								"getlist",
+								"api",
+								"salebooks",
+								"getbooksaleList"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FeedBack",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjozLCJlbWFpbCI6InNpdGh1MDA3MUBnbWFpbC5jb20iLCJpYXQiOjE2OTE5MDI0MjUsImV4cCI6MTcyMzQ2MDAyNX0.RVYm8o49qC3cG0nGkvJL3KQ8gNV_epUVL_lh6ZHHLt0",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"book_id\" : 1,\n    \"feedback_text\" : \"good\",\n    \"feedback_date\" : \"2023-03-04\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URL}}/feedback/store/api/feedbacks/createfeedback",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"feedback",
+								"store",
+								"api",
+								"feedbacks",
+								"createfeedback"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjozLCJlbWFpbCI6InNpdGh1MDA3MUBnbWFpbC5jb20iLCJpYXQiOjE2OTE5MDI0MjUsImV4cCI6MTcyMzQ2MDAyNX0.RVYm8o49qC3cG0nGkvJL3KQ8gNV_epUVL_lh6ZHHLt0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{API_URL}}/feedback/getlist/api/feedbacks/getfeedbacklist",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"feedback",
+								"getlist",
+								"api",
+								"feedbacks",
+								"getfeedbacklist"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "DEV_API",
+			"value": "http://localhost:3000/api"
+		},
+		{
+			"key": "API_URL",
+			"value": "http://localhost:8000"
+		}
+	]
+}

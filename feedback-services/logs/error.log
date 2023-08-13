@@ -1,0 +1,93 @@
+[2023-08-12T02:19:34.931Z] Status: 400, Error: Error: Invalid phone number format
+[2023-08-12T02:22:45.666Z] Status: 400, Error: Error: Invalid phone number format
+[2023-08-12T02:22:47.394Z] Status: 400, Error: Error: Invalid phone number format
+[2023-08-12T02:23:09.483Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format
+[2023-08-12T02:24:49.893Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:24:51.616Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:24:52.682Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:25:07.424Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:25:10.572Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:25:11.625Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Invalid phone number format,
+Validation error: Email is already in use
+[2023-08-12T02:26:26.267Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits,
+Validation error: Email is already in use
+[2023-08-12T02:26:37.321Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Email is already in use
+[2023-08-12T02:36:19.859Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:36:19.860Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:36:22.420Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:36:22.420Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:36:30.938Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:36:30.939Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:36:39.139Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:36:39.140Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:36:40.412Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:36:40.413Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:37:12.948Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:37:12.952Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:37:14.063Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:37:14.063Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:37:44.334Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:37:44.335Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:39:17.811Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T02:39:18.887Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T02:39:28.051Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T02:40:18.425Z] Status: 400, Error: Error: Invalid Password
+[2023-08-12T02:40:20.624Z] Status: 400, Error: Error: Invalid Password
+[2023-08-12T02:40:41.997Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T02:40:43.308Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T02:40:49.493Z] Status: 400, Error: Error: Invalid Password
+[2023-08-12T02:42:30.208Z] Status: 400, Error: Error: Invalid Password
+[2023-08-12T02:42:31.581Z] Status: 400, Error: Error: Invalid Password
+[2023-08-12T02:42:36.817Z] Status: 400, Error: Error: undefined
+[2023-08-12T02:42:36.818Z] Status: 500, Error: Error: TypeError: res.status is not a function
+[2023-08-12T02:42:55.129Z] Status: 400, Error: Error: User not found
+[2023-08-12T03:04:56.231Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-12T03:05:07.292Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-12T11:41:09.311Z] Status: 500, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-12T11:41:10.739Z] Status: 500, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-12T11:41:29.868Z] Status: 400, Error: Error: SequelizeValidationError: Validation error: Phone number must be exactly 11 digits
+[2023-08-12T11:54:22.640Z] Status: 500, Error: Error: TypeError: Customer.findByIdAndDelete is not a function
+[2023-08-12T12:53:33.454Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T12:53:36.194Z] Status: 500, Error: Error: ReferenceError: error is not defined
+[2023-08-12T12:53:51.356Z] Status: 400, Error: Error: Nedd User Login!
+[2023-08-12T12:53:51.366Z] Status: 500, Error: Error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-08-12T12:56:13.317Z] Status: 400, Error: Error: Need User Login!
+[2023-08-12T13:14:47.359Z] Status: 400, Error: Error: Need User Login!
+[2023-08-12T13:15:18.757Z] Status: 400, Error: Error: Need Admin Login!
+[2023-08-12T14:56:01.902Z] Status: 500, Error: Error: ReferenceError: books is not defined
+[2023-08-12T14:56:41.970Z] Status: 500, Error: Error: ReferenceError: book is not defined
+[2023-08-12T14:56:57.651Z] Status: 500, Error: Error: ReferenceError: book is not defined
+[2023-08-12T14:57:30.336Z] Status: 500, Error: Error: ReferenceError: book is not defined
+[2023-08-13T03:34:15.735Z] Status: 500, Error: Error: JsonWebTokenError: invalid signature
+[2023-08-13T03:41:09.238Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T03:41:12.984Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T03:41:56.144Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T03:47:44.943Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T03:47:46.273Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T03:48:31.939Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T03:57:37.303Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T03:58:01.180Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T03:58:16.952Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T03:58:28.257Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T03:58:40.965Z] Status: 400, Error: Error: Need Customer Login!
+[2023-08-13T04:08:03.150Z] Status: 500, Error: Error: AxiosError: Request failed with status code 404
+[2023-08-13T04:08:47.156Z] Status: 500, Error: Error: ReferenceError: books is not defined
+[2023-08-13T04:09:14.739Z] Status: 500, Error: Error: AxiosError: Request failed with status code 404
+[2023-08-13T04:10:35.419Z] Status: 500, Error: Error: AxiosError: Request failed with status code 404
+[2023-08-13T04:11:53.186Z] Status: 500, Error: Error: AxiosError: Request failed with status code 404
+[2023-08-13T04:12:35.035Z] Status: 500, Error: Error: AxiosError: Request failed with status code 404
+[2023-08-13T04:12:53.322Z] Status: 500, Error: Error: ReferenceError: books is not defined
+[2023-08-13T04:13:45.878Z] Status: 500, Error: Error: ReferenceError: books is not defined
+[2023-08-13T04:14:04.026Z] Status: 500, Error: Error: ReferenceError: book is not defined
+[2023-08-13T04:14:18.715Z] Status: 500, Error: Error: ReferenceError: book is not defined
+[2023-08-13T04:14:20.243Z] Status: 500, Error: Error: ReferenceError: book is not defined
+[2023-08-13T04:34:49.310Z] Status: 500, Error: Error: ReferenceError: salebook is not defined
+[2023-08-13T04:35:15.766Z] Status: 500, Error: Error: ReferenceError: salebook is not defined
+[2023-08-13T04:35:26.185Z] Status: 500, Error: Error: ReferenceError: salebook is not defined
+[2023-08-13T04:59:31.958Z] Status: 500, Error: Error: AxiosError: Request failed with status code 400
+[2023-08-13T04:59:37.004Z] Status: 500, Error: Error: AxiosError: Request failed with status code 400
